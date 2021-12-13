@@ -1,0 +1,25 @@
+@import url(reset.css);
+@import url(variaveis.css);
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.logo {
+    width: 6rem;
+}
+
+.icones {
+    width: 20px;
+    margin-left: 1.5rem;
+}
+
+.icones:first-child{
+    margin-left: 0;
+}
+
+.banner {
+    width: 100%;
+}
