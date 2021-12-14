@@ -1,14 +1,23 @@
 @import url(reset.css);
 @import url(variaveis.css);
 
+body {
+    font-family: var(--fonte-geral);
+}
+
 .main-header {
     display: flex;
     justify-content: space-between;
-    padding: 32px;
+    padding: 2rem;
 }
 
 .logo {
     width: 6rem;
+}
+
+.imagem-banner {
+    height: 10rem;
+    width: 100%;
 }
 
 .icones {
@@ -22,4 +31,46 @@
 
 .banner {
     width: 100%;
+}
+
+.detalhes-produtos {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    border-bottom: 1px solid #A5A1A1;
+}
+
+.promocao {
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.quantidade-produtos {
+    font-size: .8rem;
+}
+
+.imagem-produto {
+    width: 126px;
+    height: 126px;
+    margin-bottom: 5.6px ;
+}
+
+.produto-titulo {
+    font-size: 12px;
+    margin-bottom: 8.5px;
+}
+
+.produto-valor {
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 600;
+}
+.cor-valor {
+    color: var(--verde);
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 28px 32px 80px 32px;
 }
