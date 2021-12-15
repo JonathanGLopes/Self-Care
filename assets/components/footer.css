@@ -1,0 +1,23 @@
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.social-icone {
+    width: 23px;
+    margin-left: 12px;
+}
+
+.cartoes {
+    width: 23px;
+    margin-left: 12px;
+}
+
+.cartoes:first-child {
+    margin-left: 0;
+}
+
+.social-icone:first-child {
+    margin-left: 0;
+}

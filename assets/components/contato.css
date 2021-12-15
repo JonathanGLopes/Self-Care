@@ -1,0 +1,48 @@
+.contato {
+    padding: 35px 32px 42px 33px;
+    background-color: #F9F9F9;
+    border-bottom: 1px solid #000;
+}
+
+.termos a {
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.termos a:last-child {
+    margin-bottom: 0;
+}
+
+.termos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 54px;
+}
+
+.contato-enviar {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-enviar {
+    width: 346px;
+    padding: 12px 0;
+    border-radius: 3px;
+    border: 0.4px solid #0000000A;
+}
+
+.contato label, input {
+    margin-bottom: 17px;
+}
+
+.botao {
+    width: 346px;
+    padding: 12px 136px;
+    border-radius: 3px;
+    font-weight: 800;
+    font-size: 16px;
+    color: white;
+    background-color: var(--verde);
+    border: none;
+
+}
