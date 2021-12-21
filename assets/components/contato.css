@@ -35,6 +35,8 @@
     border: 0.4px solid #0000000A;
 }
 
+
+/* Webkit utilizado para alterar a fonte do placeholder */
 .email-enviar::-webkit-input-placeholder{
     font-size: 15px;
     font-weight: 600;
