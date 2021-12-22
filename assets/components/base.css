@@ -77,3 +77,25 @@ body {
     grid-template-columns: 1fr 1fr;
     padding: 28px 32px 80px 32px;
 }
+
+
+@media screen and (min-width: 1440px){
+    .main-header {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .banner .imagem-banner {
+        height:375px;
+    }
+
+    .contato {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .produtos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+}
