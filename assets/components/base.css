@@ -114,8 +114,16 @@ body {
     .produtos {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 5rem;
+        column-gap: 1rem;
+        row-gap: 8rem;
         justify-items: center;
-        padding-top: 57px;
+        padding-top: 5rem;
+    }
+    .termos, .rodape {
+        margin-left: 3rem;
+    }
+
+    .contato-enviar, .pagamentos{
+        margin-right: 3rem;
     }
 }
