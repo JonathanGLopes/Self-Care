@@ -30,7 +30,7 @@
 
 .email-enviar {
     width: 346px;
-    padding: 12px 0;
+    padding: 12px 12px;
     border-radius: 3px;
     border: 0.4px solid #0000000A;
 }
@@ -40,7 +40,7 @@
 .email-enviar::-webkit-input-placeholder{
     font-size: 15px;
     font-weight: 600;
-    padding-left: 1rem;
+    padding-left: 0.4rem;
 }
 
 .contato label, input {
